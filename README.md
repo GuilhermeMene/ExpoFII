@@ -1,13 +1,22 @@
-This is a Kotlin Multiplatform project targeting Android, Desktop (JVM).
+## ExpoFII 
+An application for modeling investments in Brazilian real estate investment funds (FII's)
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+<p style='text-align: justify;'> Brazilian Real Estate Investment Funds (Fundos de Investimento Imobiliário, or FIIs) 
+pool money from multiple investors to buy physical properties or real-estate-backed securities. Buying FII shares lets 
+you invest across Brazil’s property market and trade directly on the stock exchange without the hassle of owning or 
+managing buildings yourself. While they often pay out regular income, returns and trading volume can fluctuate, and you can lose money.</p>
+
+
+
+
+
+
+
+
+
+
+
+---
 
 ### Running the apps
 
@@ -26,5 +35,3 @@ Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
 - Desktop tests: `./gradlew :shared:jvmTest`
 
 ---
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
